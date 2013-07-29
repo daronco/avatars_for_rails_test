@@ -1,0 +1,14 @@
+.bundle/
+log/*.log
+pkg/
+spec/dummy/db/*.sqlite3
+spec/dummy/log/*.log
+spec/dummy/tmp/
+spec/dummy/public/images/tmp/
+spec/dummy/public/system/
+*.DS_Store
+.project
+*.gem
+Gemfile.lock
+rdoc/*
+**.*swp
