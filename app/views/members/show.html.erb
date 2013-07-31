@@ -11,6 +11,8 @@
 </p>
 
 <%= image_tag(@member.logo.url(:style) ) %>
+<%= image_tag(@member.logo.url(:medium) ) %>
+<%= image_tag(@member.logo.url(:small) ) %>
 
 <%= link_to 'Edit', edit_member_path(@member) %> |
 <%= link_to 'Back', members_path %>
