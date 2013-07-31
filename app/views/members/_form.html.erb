@@ -20,6 +20,17 @@
     <%= f.text_field :email %>
   </div>
 
+
+  <% if @member.new_record? %>
+
+    <div><%= f.label :password %><br />
+    <%= f.password_field :password %></div>
+
+    <div><%= f.label :password_confirmation %><br />
+    <%= f.password_field :password_confirmation %></div>
+
+  <% end %>
+
   <%# The partial code in here also won't work for me %>
   <%#= render partial: 'avatars/form', object: @member, as: :avatarable %>
 
