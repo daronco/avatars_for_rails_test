@@ -7,7 +7,7 @@ gem 'rails', '3.2.13'
 
 gem 'sqlite3'
 
-gem 'avatars_for_rails', :path => './vendor/avatars_for_rails-1.1.2/'
+gem 'avatars_for_rails', :git => 'https://github.com/ging/avatars_for_rails.git'
 
 # Gems used only for assets and not required
 # in production environments by default.
