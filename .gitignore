@@ -1,0 +1,5 @@
+*.sqlite3
+log/*.log
+public/system/*
+.sass-cache/
+tmp/*
